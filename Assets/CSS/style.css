@@ -88,14 +88,14 @@ main .main .nav_bar nav .join_btn{
 } 
 
 .one_line {
-    width: 500px;
+    width: 460px;
 }
 
 .main_content .side-content .first_line {
     background-color: hsl(255deg 43% 28%);
     color: hsl(231, 7%, 65%);
     font-family: 'Barlow', sans-serif;
-    font-size: 1.1rem;
+    font-size: 1rem;
     padding: .5em;
     border-radius: 20px;
     margin-bottom: 1em;
@@ -110,12 +110,19 @@ main .main .nav_bar nav .join_btn{
     
 }
 
+.width_line {
+    width: 700px;
+}
+
 .main_content .side-content .third_line{
     font-family: 'Barlow', sans-serif;
     line-height: 1.5em;
     margin-bottom: .8em;
+    color: hsl(231, 7%, 65%);
     
 }
+
+
 
 form input {
     width: 50%;
@@ -123,6 +130,7 @@ form input {
     border-radius: 5px;
     padding-left: 1em;
     border: none;
+    color: hsl(231, 7%, 65%);
 }
 
 form button {
