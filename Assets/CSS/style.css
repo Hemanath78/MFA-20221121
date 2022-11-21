@@ -48,7 +48,7 @@ main .main .nav_bar nav ul {
 }
 
 main .main .nav_bar nav ul li {
-    padding-right: 3em;
+    padding-right: 1.5em;
     font-size: 1.2rem;
     font-family: 'Barlow', sans-serif;
     color: hsl(231, 7%, 65%);
@@ -86,12 +86,16 @@ main .main .nav_bar nav .join_btn{
     
 } 
 
+.one_line {
+    width: 500px;
+}
+
 .main_content .side-content .first_line {
     background-color: hsl(255deg 43% 28%);
     color: hsl(231, 7%, 65%);
     font-family: 'Barlow', sans-serif;
-    font-size: 1.3rem;
-    padding: .5em 1em;
+    font-size: 1.1rem;
+    padding: .5em;
     border-radius: 20px;
     margin-bottom: 1em;
 }
@@ -136,7 +140,7 @@ form button {
 
 /* start of footer content */
 .footer {
-    margin-left: 8em;
+    margin-left: 6em;
 }
 
 .footer p {
