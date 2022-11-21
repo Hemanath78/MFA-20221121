@@ -109,7 +109,7 @@ main .main .nav_bar nav .join_btn{
     font-family: 'Barlow', sans-serif;
     line-height: 1.5em;
     margin-bottom: .8em;
-    width: 100%;
+    
 }
 
 form input {
@@ -136,7 +136,7 @@ form button {
 
 /* start of footer content */
 .footer {
-    margin-left: 10em;
+    margin-left: 11em;
 }
 
 .footer p {
