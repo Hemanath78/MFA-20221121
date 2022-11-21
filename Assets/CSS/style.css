@@ -77,6 +77,7 @@ main .main .nav_bar nav .join_btn{
     display: flex;
     flex-direction: row;
     justify-content: space-around; 
+    padding-bottom: 5em;
 }
 .main_content .side-content {
     height: 500px;
@@ -140,7 +141,7 @@ form button {
 
 /* start of footer content */
 .footer {
-    margin-left: 6em;
+    margin-top: 6em;
 }
 
 .footer p {
