@@ -1,3 +1,152 @@
 @import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@400;700&family=Fraunces:opsz@9..144&family=Montserrat&family=Outfit:wght@400;700&display=swap');
 
 @import url('https://fonts.googleapis.com/css2?family=Barlow&family=Barlow+Condensed:wght@400;700&family=Fraunces:opsz@9..144&family=Montserrat&family=Outfit&display=swap');
+
+html {
+    font-size: 18px;
+}
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: white;
+}
+/* start of navigation */
+li {
+    list-style: none;
+}
+
+main {
+    background-color: hsl(207, 33%, 95%);
+    margin: 1em;
+    border-radius: 10px;
+}
+
+main .main .nav_bar {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+   
+
+}
+
+main .main .nav_bar nav {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 2em;
+}
+
+main .main .nav_bar nav ul {
+    display: flex;
+    flex-direction: row;
+   
+}
+
+main .main .nav_bar nav ul li {
+    padding-right: 3em;
+    font-size: 1.2rem;
+    font-family: 'Barlow', sans-serif;
+    color: hsl(231, 7%, 65%);
+    cursor: pointer;
+}
+
+main .main .nav_bar nav .join_btn{
+    background-color: hsl(255deg 43% 28%);
+    font-size: 1.2rem;
+    color: white;
+    border-radius: .5em;
+    padding: 1em;
+    cursor: pointer;
+}
+
+/* End of navigation */
+
+/* start of main content */
+
+.main_content .main-img img {
+    width: 350px;
+}
+
+.main_content {
+    margin-top: 3em;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around; 
+}
+.main_content .side-content {
+    height: 500px;
+    width: 640px;
+    display: flex;
+    flex-direction: column;
+    
+} 
+
+.main_content .side-content .first_line {
+    background-color: hsl(255deg 43% 28%);
+    color: hsl(231, 7%, 65%);
+    font-family: 'Barlow', sans-serif;
+    font-size: 1.3rem;
+    padding: .5em 1em;
+    border-radius: 20px;
+    margin-bottom: 1em;
+}
+
+.main_content .side-content .second_line {
+    font-family: 'Barlow', sans-serif;
+    color: hsl(230, 29%, 20%);
+    font-weight: 700;
+    font-size: 3rem;
+    margin-bottom: .2em;
+    
+}
+
+.main_content .side-content .third_line{
+    font-family: 'Barlow', sans-serif;
+    line-height: 1.5em;
+    margin-bottom: .8em;
+    width: 100%;
+}
+
+form input {
+    width: 50%;
+    height: 60px;
+    border-radius: 5px;
+    padding-left: 1em;
+    border: none;
+}
+
+form button {
+    background-color: hsl(255deg 43% 28%);
+    font-size: 1.2rem;
+    color: white;
+    border: none;
+    border-radius:10px;
+    padding: .8em;
+    cursor: pointer;
+    margin-left: .5em;
+}
+
+
+/* End of main content */
+
+/* start of footer content */
+.footer {
+    margin-left: 10em;
+}
+
+.footer p {
+    font-family: 'Barlow', sans-serif;
+    margin-bottom: .5em;
+}
+
+.footer .icons img {
+    padding-right: .5em;
+    margin-bottom: 1em;
+}
+/* end of footer content */
+
